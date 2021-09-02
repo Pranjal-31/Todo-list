@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  border: 4px solid rgb(1, 43, 13);
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+  background-color: rgba(240, 226, 196, 0.877);
+  position: relative;
+  height: 90vh;
+  width: auto;
+  padding: 10px 10px;
+  
+}
+h1{
+  padding: 3rem 3rem;
+  border: dotted rgb(1, 43, 13);
+  text-align: center;
+  align-items: center;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

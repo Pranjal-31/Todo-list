@@ -1,0 +1,26 @@
+todolist app will dispaly the the to do list of the user 
+item =["buy mangoes", "do work"]
+
+Todolist will get the string input ftom the user.
+
+
+TodolistComponent will show that array item as list.
+ 
+for that we will need unordered list, 
+<ul>
+    <li></li>
+<\ul>
+
+For this we will use map feature.
+
+Map simply traverses the array, and stores the  item of the array in the iterator by one by one. 
+
+item.map(itr=>{
+<li>{itr}</li>})
+
+Map doesnt traverse in some proper order.
+for that we will improve the array.
+item array will have objects.
+
+item=[{text:"do work" id=(time at which the entry havebeen made.)};]
+<li key={this.id}> {itr.text} </li>
